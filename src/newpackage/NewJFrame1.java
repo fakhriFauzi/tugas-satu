@@ -28,28 +28,28 @@ public class NewJFrame1 extends javax.swing.JFrame {
     private void initComponents() {
 
         jTabbedPane2 = new javax.swing.JTabbedPane();
-        newJPanel12 = new newpackage.NewJPanel1();
-        newJPanel22 = new newpackage.NewJPanel2();
-        newJPanel31 = new newpackage.NewJPanel3();
-        newJPanel1 = new newpackage.NewJPanel();
+        newJPanel11 = new newpackage.NewJPanel1();
+        newJPanel21 = new newpackage.NewJPanel2();
+        newJPanel32 = new newpackage.NewJPanel3();
+        newJPanel2 = new newpackage.NewJPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jTabbedPane2.addTab("tambah", newJPanel12);
-        jTabbedPane2.addTab("kurang", newJPanel22);
-        jTabbedPane2.addTab("kali", newJPanel31);
-        jTabbedPane2.addTab("bagi", newJPanel1);
+        jTabbedPane2.addTab("pertambahan", newJPanel11);
+        jTabbedPane2.addTab("pengurangan", newJPanel21);
+        jTabbedPane2.addTab("perkalian", newJPanel32);
+        jTabbedPane2.addTab("pembagian", newJPanel2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane2, javax.swing.GroupLayout.Alignment.TRAILING)
+            .addComponent(jTabbedPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 497, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 31, Short.MAX_VALUE)
+                .addGap(0, 8, Short.MAX_VALUE)
                 .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -93,9 +93,9 @@ public class NewJFrame1 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTabbedPane jTabbedPane2;
-    private newpackage.NewJPanel newJPanel1;
-    private newpackage.NewJPanel1 newJPanel12;
-    private newpackage.NewJPanel2 newJPanel22;
-    private newpackage.NewJPanel3 newJPanel31;
+    private newpackage.NewJPanel1 newJPanel11;
+    private newpackage.NewJPanel newJPanel2;
+    private newpackage.NewJPanel2 newJPanel21;
+    private newpackage.NewJPanel3 newJPanel32;
     // End of variables declaration//GEN-END:variables
 }

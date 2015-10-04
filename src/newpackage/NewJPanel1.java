@@ -74,7 +74,7 @@ public class NewJPanel1 extends javax.swing.JPanel {
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
                                 .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(48, 48, 48)
+                        .addGap(37, 37, 37)
                         .addComponent(jButton1)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -103,8 +103,8 @@ public class NewJPanel1 extends javax.swing.JPanel {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
           Integer satu,dua,hasil;
-       satu= Integer.valueOf(jTextField1.getText());
-       dua= Integer.valueOf(jTextField2.getText());
+       satu= Integer.parseInt(jTextField1.getText());
+       dua= Integer.parseInt(jTextField2.getText());
        
       hasil=satu+dua;
       jTextField3.setText(""+hasil);
